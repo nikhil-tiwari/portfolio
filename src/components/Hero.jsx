@@ -49,7 +49,7 @@ const Hero = () => {
               animate="visible"
               href={resume}
               download="cv.pdf"
-              className="mt-4 inline-block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:from-pink-400 hover:via-slate-600 hover:to-purple-600 transition duration-300 ease-in-out"
+              className="mt-4 mb-8 md:mb-8 inline-block bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:from-pink-400 hover:via-slate-600 hover:to-purple-600 transition duration-300 ease-in-out"
             >
               Download Resume
             </motion.a>
