@@ -35,20 +35,36 @@ export const PROJECTS = [
       "React Toastify",
       "PapaParse",
     ],
+    website: "https://fin-track-seven.vercel.app/",
+    github: "https://github.com/nikhil-tiwari/finTrack",
   },
   {
-    title: "Weather App",
+    title: "Pokedex",
     image: project2,
     description:
-      "A React-based application that provides real-time weather conditions and a 5-day forecast. Features include city search with auto-complete, current weather details, and an expandable 5-day forecast. Integrated GeoDB Cities API and OpenWeather API for weather data retrieval.",
-    technologies: ["React", "Axios", "React-Select-Async-Paginate", "React-Accessible-Accordion", "CSS"],
+      "A React-based web application that allows users to search, filter, and explore detailed information about Pokémon. Features include real-time search, type-based filtering, infinite scroll, and individual Pokémon detail pages. Built with React Router for navigation and styled with a fully responsive Tailwind CSS design.",
+    technologies: ["React.js", "Tailwind CSS", "React Router", "Pokémon API"],
+    website: "https://pokedex-omega-nine-91.vercel.app/",
+    github: "https://github.com/nikhil-tiwari/pokedex",
   },
   {
-    title: "Todo App",
+    title: "Multi-Chain Wallet",
     image: project3,
     description:
-      "A task management application built with React and Redux Toolkit, allowing users to add, edit, delete, and complete tasks. Designed with a responsive user interface for optimal performance on desktop and mobile devices.",
-    technologies: ["React", "Redux Toolkit", "CSS", "React Hook"],
+      "A React-based application to generate and manage Ethereum and Solana wallets from a single mnemonic phrase. Features include mnemonic generation, multiple wallet creation, real-time balance checks via Alchemy APIs, and secure display of public/private keys. Integrated Redux Toolkit for wallet state management and designed a responsive UI with Tailwind CSS.",
+    technologies: [
+      "React",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "ethers.js",
+      "@solana/web3.js",
+      "bip39",
+      "ed25519-hd-key",
+      "tweetnacl",
+      "Axios",
+    ],
+    website: "https://react-todo-app-virid-three.vercel.app/",
+    github: "https://hd-wallet-hub.vercel.app/",
   },
 ];
 
